@@ -1,0 +1,47 @@
+/*NULL*/
+h1,h2,h3,p{margin: 0;}
+/*NULL*/
+
+.wrapper{
+    max-width: 670px; 
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    background-color: #46b1de;
+    margin-bottom: 15px;
+}
+.article{
+    background-color: olivedrab;
+}
+.article__title{
+    margin-bottom: 10px;
+}
+.article__title h2{
+    text-align: center;
+}
+.article__body {
+    border: solid 4px;
+    padding: 5px;
+    margin: 0px 7px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.buttons :first-child,
+.buttons :nth-child(2),
+.buttons :last-child {
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px 15px;
+}
+.author {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 7px;
+    padding-bottom: 5px; 
+}
